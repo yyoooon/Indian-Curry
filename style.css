@@ -1,0 +1,1248 @@
+.clearfix::after{content:""; display:block; clear:both;}
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+
+#wrap{width: 100%;}
+
+/* ------------------------------------------------------ */	
+p {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+      }
+      
+h1, h2, h3, h4 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+      }
+
+/* header */
+
+#logo, nav, nav li{float: left;}
+
+header{width:100%;
+			height:60px;
+			background-color:rgb(190,76,69,0.5);
+			position: fixed;
+			z-index: 1;}
+			
+#logo{padding: 7px 0;
+		margin-left: 50px;}
+
+nav{
+	float: right;
+	width: 600px;
+/* 	background-color: red; */
+	margin-right: 20px;
+}
+
+nav li{
+	font-size: 12px;
+	width:120px;
+	text-align: center; 
+	line-height: 60px;
+}
+
+nav li h2{
+	color: #1E9B99;
+}
+
+/* header */
+
+
+/* header_img */
+
+#header_img_wrap{
+	width: 100%;
+	height: 4320px;
+	/* border: 1px solid green; */
+}
+
+#header_img{
+	width:100%;
+	height:1100px;
+	margin: 0 auto;
+	}
+
+#layer{
+	position: relative;
+	height: 1250px;
+	}
+	
+#layer1{
+	position:absolute;
+	bottom:-400px;
+}
+#layer2{
+	position:absolute;
+	bottom:-400px;
+	left: 50%;
+	margin-left: -469px;
+}
+
+#layer3{
+	position:absolute;
+	bottom:-400px;
+	left: 50%;
+	margin-left: -824.5px;
+}
+
+#layer4 {
+	position: absolute;
+	bottom: -400px;
+}
+
+#m_title{
+    width:415px;
+	position:absolute;
+	left: 50%;
+	margin-left: -207.5px;
+	bottom: -400px;
+}	
+/* header_img */
+
+/* setion_intro */
+
+#intro {
+	width: 100%;
+	height: 7100px;
+	/* border: 3px solid pink; */
+}
+
+#red_back{
+	width: 100%;
+	height: 900px; 
+	position: relative;
+}
+
+#red_back h3{
+	text-align: center;
+	color: #FFE4CF;
+	position: absolute;
+	top:200px;
+	left: 50%;
+	margin-left:-286px;
+}
+
+/* ----------------------------------------------------------------- */
+
+#s_title{
+	height: 160px;
+	/* background-color: green; */
+	text-align: center;
+	margin-top: 150px;
+	
+}
+
+#s_title img{
+	
+}
+
+#s_title h4{
+	margin-top: 42px;
+	color: #2C8691;
+	font-size: 30px;
+}
+
+#about_curry{
+	height: 407px;
+	/* background-color: blue; */
+	text-align: center;
+	margin-top: 197px;
+}
+
+#about_curry p{
+	font-size: 16px;
+	color: #2C8691;
+	margin-top: 100px;
+}
+
+#masala{
+	margin-top: 455px;
+	/* border:3px solid red; */
+	text-align: center;
+	height: 3600px;
+	position: relative;
+}
+
+#masala_img_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+}
+
+#masala h4{
+	font-size: 21px;
+	color: #2C8691;
+	margin-bottom: 300px;
+}
+
+#hide{
+	position:relative;
+	top:-4px;
+	height: 330px;
+	width:300px;
+	margin: 0 auto;
+	background-color: #EE9F64;
+}
+
+#masala_text{
+	width:1080px;
+	font-size: 16px;
+	color: #2C8691;
+	position: absolute;
+	bottom: 1010px;
+	left:50%;
+	margin-left:-540px;
+	background-color: #EE9F64;
+	 /* border: 3px solid red;  */
+	height:280px;
+}
+
+#masala_powder{
+	/* border: 3px solid red; */
+}
+
+#masala_powder img{
+	opacity: 0;
+}
+
+/* -------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+#curry_back_red_wrap{
+	height: 1230px;
+	/* border: 3px solid green;  */
+	text-align: center;
+	color: #FFE4CF;
+	position: relative;
+	top:3px;
+	background-color: #E59310;
+}
+
+#curry_back_red_wrap h4{
+	margin:0 auto;
+	width:456px;
+	font-size: 22px;
+	color: #FFE4CF;
+	padding-bottom:5px;
+	border-bottom: 3px  solid #1E9B99;
+	position: absolute;
+	top: 278px;
+	left: 50%;
+	margin-left: -228px;
+}
+
+
+#curry_back_red_wrap p{
+	font-size: 16px;
+	position: absolute;
+	top: 379px;
+	left: 0;
+	right: 0;
+}
+
+
+/* setion1_intro */
+
+/* section2_name */
+#name {
+	width: 100%;
+	height: 23280px;
+	background-color: #E59310;
+}
+/* --------------------------title------------------------------- */
+
+.s_title {
+	height: 264px;
+	/* border: 3px solid red; */
+	text-align: center;
+	padding-top: 0px;
+}
+
+.s_title img{
+	width: 
+}
+
+
+.s_title h4{
+	margin-top: 42px;
+	color: #2C8691;
+	font-size: 26px;
+}
+
+.s_title p{
+	margin-top: 70px;
+	color: #2C8691;
+	font-size: 18px;
+}
+/* --------------------------title------------------------------- */
+
+.c_name {
+	width: 100%;
+	height: 5000px;
+	/* border: 3px solid green; */
+	text-align: center;
+	margin-top: 500px;
+	position: relative;
+}
+
+.in_title{
+	width:393px;
+	margin:0 auto;
+	line-height:40px;
+	font-size: 18px;
+	color:#FFE4CF;
+	background-color: #2C8691;
+	border-radius: 13px;
+}
+
+.in_name_cover {
+	margin-top: 212px;
+}
+
+.in_img {
+	margin-top: 61px;
+}
+
+.in_name p:nth-of-type(1){
+	font-size: 16px;
+	color: #2C8691;
+}
+
+.in_name h4{
+	font-size: 26px;
+	color: #2C8691;
+	margin-top: 10px;
+}
+
+.in_name {
+	display: inline-block;
+	padding: 0 25px;
+	position: relative;
+}
+
+.in_img img:nth-of-type(1){
+	position: absolute;
+	left:0;
+}
+
+.in_img img:nth-of-type(2){
+	position: absolute;
+	right: 0;
+}
+
+.size {
+	width: 8%;
+}
+
+.size2{
+	width: 13%;
+	
+}
+
+.in_curry{
+	position: absolute;
+	top: 400px;
+	left: 0;
+	right: 0;
+}
+
+.in_curry_img{
+	opacity: 0;
+}
+
+.in_curry_text{
+	position:absolute;
+	top: 1100px;
+	left: 0;
+	right: 0;
+}
+
+.in_curry h4 {
+	font-size: 26px;
+	color: #2C8691;
+	margin-top: 75px;
+}
+
+.in_curry p{
+	font-size: 16px;
+	color: #2C8691;
+	margin-top: 10px;
+}
+
+.
+/* section2_name */
+
+/* section3_m_curry */
+
+#back_head {
+	
+	
+}
+
+/* --------------------------------------------------------------- */
+
+.m_curry{
+	height:14000px;
+	margin-top: 634px;
+	position: relative;
+	/* border: 3px solid green; */
+}
+
+
+
+.make_curry {
+	height: 3000px;
+	text-align: center;
+}
+/* 소스 */
+.make_curry_ings  div:nth-of-type(1) {
+	position: absolute;
+	top: 18px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 고기 감자 */
+.make_curry_ings  div:nth-of-type(2) {
+	position: absolute;
+	top: -700px;
+	right: 0;
+	left: 25px;
+	opacity: 0;
+}
+
+
+/* 소스 광 */
+.make_curry_ings  div:nth-of-type(3) {
+	position: absolute;
+	top: 14px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+
+/* 마살라 뿌 */
+.make_curry_ings  div:nth-of-type(4) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 요거트 뿌 */
+.make_curry_ings  div:nth-of-type(5) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+    opacity: 0;
+}
+/* 파슬리 뿌 */
+.make_curry_ings  div:nth-of-type(6) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 파슬리 올 */
+.make_curry_ings  div:nth-of-type(7) {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.make_curry_sauce{
+	position: absolute;
+	top: -500px;
+	left: 0;
+	right: 0;
+}
+
+.make_curry_sauce > div{
+	display: inline-block;
+	opacity: 0;
+}
+
+.plate_bottom {
+	position:absolute;
+	top: 234px;
+	left: 0;
+	right: 0;
+}
+
+.plate_edge {
+	position:absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+
+.hide_wrap{
+	width:1080px;
+	height:800px;
+	margin: 0 auto;
+    background-color: #C96A57;
+	position:relative;
+	top:-4px;
+}
+
+/* --------------------------------------------------------------- */
+.explain_curry {
+	position: relative;
+	top: 8750px;
+}
+
+.explain_curry_text {
+	color: #FFE4CF;
+	position:relative;
+	left: -800px;
+}
+
+.explain_curry_text h4 {
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.explain_curry_ings{
+	position: relative;
+	top:900px;
+	left: 0px;
+	right: 0;
+}
+
+.explain_curry_ings li {
+	display: inline-block;
+	color:#FFE4CF;
+	padding-left: 30px;
+}
+
+.explain_curry_ings li:nth-of-type(1) {
+	padding-left: 0;
+}
+
+.explain_curry_ings li img{
+	height: 80px;
+	margin-top: 20px;
+}
+
+.explain_curry_ings {
+	text-align: center;
+}
+	/* 팔락파니르 */
+	#cheese {
+	position:absolute;
+	left: -35px;
+	}
+	/* 팔락파니르 */
+	
+	/* 알루 고비 */
+	
+	#m_curry_cut{
+	height: 13300px;
+	}
+	
+	#aloo_ss {
+	position: absolute;
+	top: 25px;
+	}
+	
+	#aloo {
+	position: absolute;
+	left: -10px;
+	}
+	
+	/* ------------------------------------------------------------------- */
+	
+	/* 소스 */
+.make_curry_ings_aloo > div:nth-of-type(1) {
+	position: absolute;
+	top: 18px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 고기 감자 */
+.make_curry_ings_aloo > div:nth-of-type(2) {
+	position: absolute;
+	top: -700px;
+	right: 0;
+	left: 25px;
+	opacity: 0;
+}
+/* 3_ 콜리 */
+.make_curry_ings_aloo > div:nth-of-type(3) {
+	position: absolute;
+	top: -700px;
+	right: 0;
+	left: 25px;
+	opacity: 0;
+}
+
+/* 소스 광 */
+.make_curry_ings_aloo > div:nth-of-type(4) {
+	position: absolute;
+	top: 14px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+
+/* 3_ 고수 */
+.make_curry_ings_aloo > div:nth-of-type(5) {
+	position: absolute;
+	top: -700px;
+	right: 0;
+	left: 25px;
+	opacity: 0;
+}
+
+/* 마살라 뿌 */
+.make_curry_ings_aloo > div:nth-of-type(6) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 요거트 뿌 */
+.make_curry_ings_aloo > div:nth-of-type(7) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+    opacity: 0;
+}
+/* 파슬리 뿌 */
+.make_curry_ings_aloo > div:nth-of-type(8) {
+	position: absolute;
+	top: -1100px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+/* 파슬리 올 */
+.make_curry_ings_aloo > div:nth-of-type(9) {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+	/* 알루 고비 */
+/* section3_m_curry */
+
+
+/* section4_side */
+#side{
+	background-color: #DC7F5F;
+	height: 21850px;
+}
+
+#s_title_back_side {
+	background-color: #DC7F5F;
+	height: 500px;
+}
+
+.side_li {
+	height: 4700px;
+	width:1200px;
+	/* border: 3px solid blue; */
+	margin: 500px auto;
+	position: relative;
+}
+
+.side_t_l {
+	color: #FFE4CF;
+}
+
+.side_t_l  h5{
+	font-size: 26px;
+}
+
+.side_t_l  p{
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.side_t_r {
+	color: #FFE4CF;
+	width: 470px;
+	margin-left: 760px;
+}
+
+.side_t_r  h5{
+	font-size: 26px;
+}
+
+.side_t_r  p{
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.sides {
+	position: relative;
+	margin-top: 230px;
+	/* border: 3px solid green; */
+	height: 400px;
+	}
+#nan_wrap {
+	position: relative;
+}
+
+/* ---------------난------------------------- */
+
+
+#nan_ {
+	display: inline-block;
+	position: absolute;
+}
+
+#nan_piece {
+	display: inline-block;
+	position: absolute;
+	left: 385px;;
+	top: 20px;
+}
+
+#nan_ss {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: -1800px;
+	opacity: 0;
+}
+/* ---------------난------------------------- */
+
+/* ---------------탄두리 치킨------------------------- */
+#stick {
+	display:inline-block;
+	position: absolute;
+	left: -355px;
+	top: 100px;
+}
+
+
+#ch_1 {
+	display:inline-block;
+	position: absolute;
+	left: 2140px;
+}
+
+#ch_2 {
+	display:inline-block;
+	position: absolute;
+	left: 2425px;
+	top: 20px;
+}
+
+#ch_3 {
+	display:inline-block;
+	position: absolute;
+	left: 2635px;
+}
+
+#stick_j {
+	display:inline-block;
+	position: absolute;
+	left: 375px;
+	top: 100px;
+	opacity: 0;
+}
+
+#smock {
+	display:inline-block;
+	position: absolute;
+	top: -50px;
+	left: 400px;
+	opacity: 0;
+}
+/* ---------------탄두리 치킨------------------------- */
+
+/* ---------------사모사------------------------- */
+
+#plate_samosa {
+	display:inline-block;
+	position: absolute;
+	right: 0;
+}
+
+#back_samosa {
+	display:inline-block;
+	position: absolute;
+	left: 600px;
+}
+
+#_samosa {
+	display:inline-block;
+	position: absolute;
+	left: 607px;
+	top: 8px;
+}
+
+#ss_samosa {
+	display:inline-block;
+	position: absolute;
+	left: 643px;
+	top:125px;
+}
+
+#ss_samosa img {
+	width: 92%;
+}
+
+#cover_samosa {
+	display:inline-block;
+	position: absolute;
+	left: 597px;
+}
+/* ---------------사모사------------------------- */
+
+/* ---------------라씨------------------------- */
+
+#str {
+	display:inline-block;
+	position: absolute;
+	top: -630px;
+	left: 250px;
+	opacity: 0;
+}
+
+
+#str_lassi {
+	display:inline-block;
+	position: absolute;
+	top: -120px;
+	left:150px;
+	opacity: 0;
+}
+
+#lassi {
+	display:inline-block;
+	position: absolute;
+	top: -120px;
+	left:150px;
+}
+
+#cup {
+	display:inline-block;
+	position: absolute;
+	top: -75px;
+	left:150px;
+	
+}
+
+#lacci_u {
+	display:inline-block;
+	position: absolute;
+	top: -76px;
+	left:161px;
+	
+}
+
+/* ---------------라씨------------------------- */
+
+
+/* section4_side */
+
+/* section5_comp */
+
+#comp {
+	height: 27250px;
+	background-color: #ECBC97;
+}
+
+#curry_explain {
+	/* border: 3px solid red; */
+	height: 500px;
+	text-align: center;
+	margin-top: 500px;
+	position: relative;
+	width:1080px;
+	margin: 500px auto;
+	margin-bottom: 0px;
+}
+
+.comp_k_j {
+	/* border: 3px solid red; */
+}
+
+.comp_k_j h4{
+	margin-top: 130px;
+	font-size: 20px;
+	color: #2C8691;
+}
+
+.comp_k_j p{
+	margin-top: 38px;
+	font-size: 16px;
+	color: #2C8691;
+}
+
+#comp_k {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+#comp_j {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+/* ---------------------------------------------------------- */
+#cook_wrap{
+	width:1080px;
+	height: 15600px;
+	/* border: 3px solid green; */
+	margin: 500px auto;
+	margin-bottom: 0;
+}
+
+#cook_kj {
+	text-align: center;
+}
+
+#cook_kj img {
+	width: 15%;
+}
+
+#cook_kj img:nth-of-type(2) {
+	 margin-left: 20px;
+}
+
+#cook {
+	/* border: 3px solid blue; */
+	height:1100px;
+	text-align: center;
+	position: relative;
+}
+
+#pot{
+	position: relative;
+	left: -1px;
+}
+
+#first_curry {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#first_curry div{
+	display: inline-block;
+}
+
+#first_curry div:nth-of-type(1) {
+	position: relative;
+	left: 8px;
+}
+
+#first_curry div:nth-of-type(2) {
+	position: relative;
+	left: 0px;
+	top: 1.5px;
+}
+
+#next_curry{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 193px;
+}
+
+#next_curry div{
+	display: inline-block;
+	opacity: 0;
+}
+
+#next_curry div:nth-of-type(1) {
+	position: relative;
+	left: 6px;
+}
+
+#next_curry div:nth-of-type(2) {
+	position: relative;
+	top: 2px;
+}
+
+#comp_imgs {
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+	top:-1400px;
+}
+
+
+
+#comp_imgs_j {
+	display: inline-block;
+	/* border: 3px solid orange; */
+	margin-right: 55px;
+	position: relative;
+	
+}
+
+#comp_imgs_k {
+	display: inline-block;
+	/* border: 3px solid green; */
+	margin-left: 55px;	
+	position: relative;
+	
+}
+
+#comp_imgs_j  li{
+	position: absolute;
+	right: 0;
+	opacity: 0;
+	
+	
+}
+
+#comp_imgs_k li {
+	position: absolute;
+	opacity: 0;
+}
+
+#rq {
+	position: relative;
+	top: -2200px;
+	opacity: 0;
+}
+
+#rq img {
+	
+}
+
+#rq div {
+	display: inline-block;
+}
+
+#rq_j {
+	position: absolute;
+	left: 100px;
+}
+
+
+#rq_k {
+	position: absolute;
+	right: 100px;
+}
+
+#cook_text {
+	position: absolute;
+	top: 120px;
+	left: 0;
+	right: 0;
+}
+
+#cook_text div {
+	display: inline-block;
+	color: #2C8691;
+	font-size: 18px;
+}
+
+#cook_text div:nth-of-type(1) {
+	position: relative;
+	left: -1000px;
+}
+
+#cook_text div:nth-of-type(2) {
+	position: relative;
+	left: 1000px;
+	
+}
+
+#cook_bottom {
+	height: 200px;
+	background-color: #ECBC97;
+	position: relative;
+	top: -25px;
+}
+
+#pot_bottom {
+	position: relative;
+	top: -230px;
+	left: -1px;
+}
+
+.b_curr {
+	display: inline-block;
+	opacity: 1;
+}
+
+.y_curr {
+	display: inline-block;
+	opacity: 1;
+}
+
+#ple {
+	position: relative;
+}
+
+#bb {
+	position: relative;
+	height: 800px;
+	background-color: #ECBC97;
+	top: -900px;
+	
+}
+
+#curry_bowl {
+	position: relative;
+	top: 4000px;
+}
+
+#rice {
+	position: absolute;
+	left: 0px;
+	right: 0;
+	top: -209px;
+	
+}
+
+#y_b_curr {
+	position: relative;
+	top:3477px;
+	opacity: 0;
+	
+}
+
+#bowl {
+	position: absolute;
+	left:468px;
+	
+	
+}
+
+/* -------------------------------------------------------------- */
+
+#j_k_p {
+	position: relative;
+}
+
+#j_k_p_wrap{
+	text-align: center;
+}
+
+#j_p {
+	display: inline-block;
+	margin-right: 60px;
+	position: relative;
+	top: -700px;
+	opacity: 0;
+}
+
+#j_p img {
+	width: 400px;
+}
+
+#k_p {
+	display: inline-block;
+	margin-left: 60px;
+	position: relative;
+	top: -700px;
+	opacity: 0;
+}
+
+#k_p img {
+	width: 330px;
+}
+
+#j_k_p_text {
+	margin-top: 100px;
+	font-size: 22px;
+	color: #2C8691;
+}
+
+#j_k_p_text p {
+	display: inline-block;
+	margin-left: 200px;
+}
+
+#j_k_p_text p:nth-of-type(1) {
+	margin-left: 0;
+}
+
+#last_text {
+	text-align: center;
+	margin-top: 400px;
+	font-size: 22px;
+	color: #FFE4CF;
+}
+
+/* ------------------------------------------------------------------ */
+
+#header_img_wrap_2{
+	width: 100%;
+	height:1180px;
+	/* border: 3px solid red; */
+}
+
+#layer_2{
+	position: relative;
+	width: 100%;
+	height:1180px;
+	/* border: 3px solid orange; */
+	}
+	
+#layer1_2{
+	position:absolute;
+	bottom:100px;
+}
+#layer2_2{
+	position:absolute;
+	bottom:100px;
+	left: 50%;
+	margin-left: -469px;
+}
+
+#layer3_2{
+	position:absolute;
+	bottom:100px;
+	left: 50%;
+	margin-left: -824.5px;
+}
+
+#layer4_2 {
+	position: absolute;
+	bottom: 0px;
+}
+
+#m_title_2{
+    width:415px;
+	position:absolute;
+	left: 50%;
+	margin-left: -207.5px;
+	bottom: 100px;
+}	
+
+/* section5_comp */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
